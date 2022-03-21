@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+
+.pageContainer {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.link {
+  display: block;
+  text-shadow: 1px 0 0, 0.5px 0 0, -1px 0 0;
+  color: #fff;
+  background-color: #4481c3;
+  padding: 9px 21px 6px 11px;
+  font-size: 19px;
+  font-style: oblique;
+  border-radius: 3px;
+  transform: skew(-15deg);
+  -webkit-transform: skew(-15deg);
+  -webkit-transition: background .3s,color .3s,text-shadow .3s;
+  transition: background .3s,color .3s,text-shadow .3s;
+  cursor: pointer;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.span {
+  display: block;
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+
+.imageWrapper {
+  margin-bottom: 70px;
+  margin-top: 50px;
+}

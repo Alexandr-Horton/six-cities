@@ -1,0 +1,21 @@
+.errorMessage {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.errorInput {
+  padding: 15px 14px 13px;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: #383838;
+  background-color: #fff;
+  border: 1px solid #ff0000;
+  border-radius: 2px;
+}
+
+.errorInput:focus-visible {
+  outline: none;
+}
